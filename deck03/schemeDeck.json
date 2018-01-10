@@ -1,4 +1,5 @@
-[
+[{
+    "_id" : 3,
     "name": "Scorch the World With Dragonfire",
     "deck": [
         {
@@ -64,5 +65,6 @@
     ],
     "totalCards": 20,
     "unique": 10,
-    "repeated" : 10,
+    "repeated" : 10
+}
 ]
