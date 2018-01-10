@@ -39,7 +39,7 @@ body {
 .btn-panel{
     width: 20%;
     height: 10%;
-    padding: 1px;
+    padding: 15px;
 }
 
 .archenemy-panel,
@@ -47,7 +47,7 @@ body {
 .scheme-panel {
     width: 33.33%;
     float: left;
-    height: 580px;
+    height: 80% /*550px*/;
     padding: 5px;
     background-color: rgba(255,255,255,0.45);
 }
@@ -55,7 +55,7 @@ body {
 .ongoing-panel{
   width: 100%;
   float: left;
-  height: 200px;
+  height: 20%/*200px*/;
   padding: 5px;
   background-color: rgba(0,0,0,0.45);
 }
@@ -69,7 +69,7 @@ button {
     transform: translateX(50px, 0px);
     color: #555;
     background: none;
-    border: none;
+    /*border: none;*/
     font-family: "Lato";
     font-size: 20px;
     text-transform: uppercase;
@@ -81,6 +81,11 @@ button {
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
 button:focus{ outline: none; }
+
+.btn-abandon,
+.btn-game,
+.btn-player,
+.btn-scheme { border: none; }
 
 /* PLAYERS*/
 .player {
