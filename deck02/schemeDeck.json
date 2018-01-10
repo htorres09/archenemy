@@ -1,19 +1,68 @@
 [
-    {
-        "_id": 2,
-        "name": "",
-        "deck": [
-            {
-                "_id": 0,
-                "qty": 1
-            },
-            {
-                "_id": 0,
-                "qty": 1
-            }
-        ],
-        "totalCards": 20,
-        "unique": 20,
-        "repeated" : 0
-    }
+    "name": "Trample Civilization Underfoot",
+    "deck": [
+        {
+            "_id": 10,
+            "qty": 2
+        },
+        {
+            "_id": 11,
+            "qty": 1
+        },
+        {
+            "_id": 14,
+            "qty": 1
+        },
+        {
+            "_id": 15,
+            "qty": 1
+        },
+        {
+            "_id": 18,
+            "qty": 1
+        },
+        {
+            "_id": 19,
+            "qty": 1
+        },
+        {
+            "_id": 22,
+            "qty": 1
+        },
+        {
+            "_id": 28,
+            "qty": 2
+        },
+        {
+            "_id": 29,
+            "qty": 2
+        },
+        {
+            "_id": 32,
+            "qty": 1
+        },
+        {
+            "_id": 33,
+            "qty": 2
+        },
+        {
+            "_id": 40,
+            "qty": 1
+        },
+        {
+            "_id": 43,
+            "qty": 1
+        },
+        {
+            "_id": 44,
+            "qty": 1
+        },
+        {
+            "_id": 45,
+            "qty": 2
+        }
+    ],
+    "totalCards": 20,
+    "unique": 10,
+    "repeated" : 10,
 ]
