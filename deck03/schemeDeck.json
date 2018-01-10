@@ -1,18 +1,68 @@
 [
-    {
-        "name": "",
-        "deck": [
-            {
-                "_id": 0,
-                "qty": 1
-            },
-            {
-                "_id": 0,
-                "qty": 1
-            }
-        ],
-        "totalCards": 20,
-        "unique": 20,
-        "repeated" : 0
-    }
+    "name": "Scorch the World With Dragonfire",
+    "deck": [
+        {
+            "_id": 3,
+            "qty": 2
+        },
+        {
+            "_id": 4,
+            "qty": 1
+        },
+        {
+            "_id": 37,
+            "qty": 1
+        },
+        {
+            "_id": 13,
+            "qty": 2
+        },
+        {
+            "_id": 15,
+            "qty": 1
+        },
+        {
+            "_id": 19,
+            "qty": 1
+        },
+        {
+            "_id": 20,
+            "qty": 1
+        },
+        {
+            "_id": 21,
+            "qty": 2
+        },
+        {
+            "_id": 24,
+            "qty": 1
+        },
+        {
+            "_id": 27,
+            "qty": 2
+        },
+        {
+            "_id": 32,
+            "qty": 1
+        },
+        {
+            "_id": 41,
+            "qty": 1
+        },
+        {
+            "_id": 42,
+            "qty": 2
+        },
+        {
+            "_id": 43,
+            "qty": 1
+        },
+        {
+            "_id": 44,
+            "qty": 1
+        }
+    ],
+    "totalCards": 20,
+    "unique": 10,
+    "repeated" : 10,
 ]
