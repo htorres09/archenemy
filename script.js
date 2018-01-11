@@ -1,29 +1,48 @@
 /**
- *
- */
+*
+*/
+var c = 0;
+var list;
+/*(function(){
+    var url = "http://localhost:8080/archenemy/schemeList.json";
+
+    $.getJSON(url, {format: "json"})
+})*/
+var r = $.getJSON("schemeList.json", function(data){
+    console.log("Loading list ... ");
+    list = data;
+}).done(function(){ console.log("Loaded"); }).fail(function(){ console.log("Error"); });
+
 
 document.querySelector('.btn-scheme').addEventListener('click', function(){
-  //var y = document.getElementById("target");
-  //y.parentElement.removeChild(y);
-
-  var x = document.createElement("IMG");
-  x.setAttribute("src", "imgs/img.jpg");
-  x.setAttribute("width", "100%");
-  x.setAttribute("height", "100%");
-  x.setAttribute("Alt", "On motion: Something");
-  document.getElementById("target").appendChild(x);
+    var e = document.getElementById("targetScheme");
+    if(e){
+        $('#targetScheme').remove();
+    }
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "imgs/"+list[c].imgPath);
+    x.setAttribute("width", "100%");
+    x.setAttribute("height", "100%");
+    x.setAttribute("id", "targetScheme");
+    document.getElementById("target").appendChild(x);
+    c += 1;
 });
 
+//FUNCTIONS
 function rmvScheme(){
-  var x = document.getElementById("target");
-  x.parentElement.removeChild(x);
+    var x = document.getElementById("target");
+    x.parentElement.removeChild(x);
 }
 
 function nxtScheme(){
-   var x = document.createElement("IMG");
-   x.setAttribute("src", "imgs/img.jpg");
-   x.setAttribute("width", "100%");
-   x.setAttribute("height", "100%");
-   x.setAttribute("Alt", "On motion: Something");
-   document.getElementById("target").appendChild(x);
- }
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "imgs/img.jpg");
+    x.setAttribute("width", "100%");
+    x.setAttribute("height", "100%");
+    x.setAttribute("Alt", "On motion: Something");
+    document.getElementById("target").appendChild(x);
+}
+
+function shuffleDeck(selected){
+    var deck = JSON.parse(selected);
+}
