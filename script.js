@@ -11,6 +11,7 @@ var list;
 var r = $.getJSON("schemeList.json", function(data){
     console.log("Loading list ... ");
     list = data;
+    list.sort(function(a,b){ return 0.5 - Math.random()});
 }).done(function(){ console.log("Loaded"); }).fail(function(){ console.log("Error"); });
 
 
@@ -25,7 +26,12 @@ document.querySelector('.btn-scheme').addEventListener('click', function(){
     x.setAttribute("height", "100%");
     x.setAttribute("id", "targetScheme");
     document.getElementById("target").appendChild(x);
-    c += 1;
+    if (c < list.length){
+        c += 1;
+    } else {
+        c = 0;
+    }
+
 });
 
 //FUNCTIONS
