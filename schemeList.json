@@ -265,7 +265,7 @@
         "ongoing": false,
         "text": "When you set this scheme in motion, for each opponent, create a 2/2 black Zombie creature token that attacks that player each combat if able.",
         "flavour": "Don't come back until you've got brains in your teeth.",
-        "imgPath": "archenemy/rooted-ones-lay-siege.jpg"
+        "imgPath": "archenemy/rotted-ones-lay-siege.jpg"
     },
     {
         "_id" : 35,
@@ -328,7 +328,7 @@
         "ongoing": false,
         "text": "When you set this scheme in motion, you may pay {X}. If you do, this scheme deals X damage to target opponent and each creature he or she controls.",
         "flavour": "Let that be a lesson to you, your family, and everyone you've ever known.",
-        "imgPath": "archenemy/which-of-yours-burns-brightest.jpg"
+        "imgPath": "archenemy/which-of-you-burns-brightest.jpg"
     },
     {
         "_id" : 43,
@@ -391,7 +391,7 @@
         "ongoing": true,
         "text": "When you set this scheme in motion, choose an oppnent. \nPermenents the chosen player controls don't untap during his or her untap step.",
         "abandonIf": "When the chosen player is attacked or becomes the target of a spell or ability, abandon this scheme.",
-        "imgPath": "dci/imprision-this-insolent-wretch.jpg"
+        "imgPath": "dci/imprison-this-insolent-wretch.jpg"
     },
     {
         "_id" : 51,
