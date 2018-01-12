@@ -190,11 +190,11 @@
     },
     {
         "_id" : 25,
-        "title" : "My Genious Knows No Bound",
+        "title" : "My Genius Knows No Bounds",
         "ongoing": false,
         "text": "When you set this scheme in motion, you may pay {X}. If you do, you gain X life and draw X cards.",
         "flavour": "I can see . . . everything. The beginning and the end of time. The raw edges of reality. And now I see exactly how to kill you.",
-        "imgPath": "archenemy/my-genious-knows-no-bound.jpg"
+        "imgPath": "archenemy/my-genius-knows-no-bounds.jpg"
     },
     {
         "_id" : 26,
