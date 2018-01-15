@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -11,33 +11,60 @@
 
 <body>
   <div class="wrapper clearfix">
+    <!--SCHEME PANEL-->
     <div class="scheme-panel">
-        <div class="scheme" id="target"></div>
-        <div class="btn-panel">
-            <button class="btn-scheme"><i class="ion-log-in"></i>Next Scheme</button>
-        </div>
+      <div class="scheme" id="target"></div>
+      <div class="btn-panel">
+        <table>
+          <tbody>
+            <tr>
+              <td><button class="btn-scheme-prev"><i class="ion-log-in"></i> Previous</button></td>
+              <td><button class="btn-scheme-next">Next <i class="ion-log-out"></i></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+    <!--ARCHENEMY PANEL-->
     <div class="archenemy-panel">
-      <h2>ARCHENEMY</h2>
+      <div class="effect-box">
+        <div class="header effect-title">Archenemy</div>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- CURRENT -->
+      <div class="effect-box">
+        <div class="effect-title" id="trgt-title">CURRENT SCHEME</div>
+      </div>
+      <div class="effect-x" id="trgt-current"></div>
+      <!-- ONGOING-->
+      <div class="effect-box">
+        <div class="effect-title">ONGOING SCHEMES</div>
+      </div>
+      <div id="trgt-ongoing"></div>
+      <!--NEW GAME-->
       <div class="btn-panel">
         <button class="btn-game"><i class="ion-refresh"></i> New Game</button>
       </div>
     </div>
+    <!--PLAYERS PANEL-->
     <div class="players-panel">
       <h2>OPPONENTS</h2>
       <div class="btn-panel">
         <button class="btn-player"><i class="ion-ios-plus-outline"></i> New Player</button>
       </div>
     </div>
+    <!--ONGOING SCHEMES PANEL-->
     <div class="ongoing-panel">
-        <div class="ongoing">
-            <div class="scheme-mini">
-                <h2>ONGOING SCHEMES</h2>
-            </div>
-            <div class="btn-panel">
-                <button class="btn-abandon"><i class="ion-log-out"></i> Abandon</button>
-            </div>
-        </div>
+      <h2>ONGOING SCHEMES</h2>
+      <div class="ongoing" id="trgt-slide">
+      </div>
     </div>
   </div>
   <script type="text/javascript" src="script.js"></script>
